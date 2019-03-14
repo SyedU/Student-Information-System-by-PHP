@@ -1,0 +1,191 @@
+@media (max-width: 575px) {
+    .admin {
+        text-align: center;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #fff;
+    }
+    .baner-item h1 {
+        font-size: 17px;
+    }
+    .baner-item p {
+        font-size: 14px;
+    }
+    .work-item {
+        padding-bottom: 8px;
+    }
+    .overlay {
+        height: 100%;
+    }
+    .card {
+        min-width: 260px;
+    }
+    .notice-headline p {
+        font-size: 13px;
+        padding: 0px 0px;
+    }
+    .text-item p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+    .technology-img {
+        line-height: 30px;
+    }
+    .technology-img {
+        padding-bottom: 10px;
+    }
+    .overlay-t {
+        height: 96%;
+    }
+    .skills-item p {
+        font-size: 18px;
+    }
+    .skills-item h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .admin {
+        text-align: center;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .baner-item h1 {
+        font-size: 27px;
+    }
+    .baner-item p {
+        font-size: 14px;
+    }
+    .news-item h5 {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .news-item p {
+        color: #f40d0d;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .technology-text h3 {
+        font-size: 26px;
+    }
+    .technology-img {
+        padding-bottom: 20px;
+    }
+    .overlay-t {
+        height: 90%;
+    }
+    .overlay-t h3 {
+        font-size: 18px;
+    }
+    .overlay-t p {
+        font-size: 16px;
+    }
+    .teacher-text h3 {
+        font-size: 26px;
+    }
+    .gellery-headline h3 {
+        font-size: 26px;
+    }
+    .notice-headline h3 {
+        font-size: 26px;
+    }
+    .notice-headline p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+    .skills-item h2 {
+        font-size: 27px;
+    }
+    .skills-item p {
+        font-size: 14px;
+    }
+    .text-item p {
+        font-size: 16px;
+    }
+    .text-item h3 {
+        font-size: 14px;
+    }
+    .text-item span {
+        font-size: 14px;
+    }
+    .footer-inner {
+        float: right;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .admin {
+        text-align: center;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .baner-item h1 {
+        font-size: 31px;
+    }
+    .baner-item p {
+        font-size: 18px;
+    }
+    .news-item h5 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .news-item p {
+        color: #f40d0d;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .technology-img {
+        padding-bottom: 20px;
+    }
+    .overlay-t {
+        height: 92%;
+    }
+    .overlay-t h3 {
+        font-size: 22px;
+    }
+    .overlay-t p {
+        font-size: 18px;
+    }
+    .notice-headline p {
+        font-size: 14px;
+        padding: 0px 14px;
+    }
+    .skills-item p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .head-right a {
+        font-size: 10px;
+    }
+    .head-right {
+        padding-top: 12px;
+    }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 12px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 11px;
+    }
+    .form-control {
+        font-size: 10px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    .news-item h5 {
+        font-size: 16px;
+    }
+}

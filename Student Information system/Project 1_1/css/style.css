@@ -1,0 +1,402 @@
+/*====================
+        common css
+====================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    background-image: linear-gradient(-90deg, rgba(106, 100, 85, 0), rgb(99, 103, 84));
+}
+
+.clr {
+    clear: both;
+}
+
+@font-face {
+    font-family: rb;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: rl;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: rm;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: rr;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: rb;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: sr;
+    src: url(../fonts/SpicyRice-Regular.ttf);
+}
+
+@font-face {
+    font-family: if;
+    src: url(../fonts/IndieFlower.ttf);
+}
+
+@font-face {
+    font-family: si;
+    src: url(../fonts/ShadowsIntoLight.ttf);
+}
+
+
+/*====================
+        login css
+====================*/
+.img-student img {
+    width: 75px;
+    height: 90px;
+}
+
+.img-student i {
+    padding-right: 5px;
+}
+
+.img-student a {
+    font-size: 24px;
+    font-family: si;
+    color: #55ad6d;
+    text-decoration: none;
+}
+
+.img-admin img {
+    width: 75px;
+    height: 90px;
+    padding-top: 29px
+}
+
+.img-admin i {
+    padding-right: 5px;
+}
+
+.img-admin a {
+    font-size: 24px;
+    font-family: si;
+    color: #bfbf34;
+    text-decoration: none;
+}
+
+
+.form-area1 {
+    margin: 60px auto 0;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 60px 160px;
+    border: 2px solid #fff;
+    box-shadow: 10px 20px #49d38e;
+    -webkit-border-radius: 60px 0 60px 0;
+    -moz-border-radius: 60px 0 60px 0;
+    border-radius: 0 60px 0 60px;
+}
+
+.form-area1 a:hover {
+    color: #ff009d;
+}
+
+
+/*====================
+    heading css
+====================*/
+.head-text h2 {
+    padding-top: 60px;
+    font-size: 45px;
+    font-family: sr;
+    color: #b93bde;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+/*====================
+    nave css
+====================*/
+.nave-form h2 {
+    color: #d81560;
+    font-size: 40px;
+    font-family: si;
+}
+
+.nave-form ul li {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+}
+
+.nave-form ul li a {
+    padding: 0px 20px;
+    color: #c73ec7;
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    transition: all linear .3s;
+    border-left: 2px solid transparent;
+}
+
+.nave-form ul li a:hover {
+    color: #fa3939;
+    background: #4040cb;
+    border-left: 2px solid red;
+    text-decoration: none;
+
+}
+
+.nave-form li ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: #23b217;
+    width: 250px;
+    visibility: hidden;
+}
+
+.nave-form li:hover ul {
+    visibility: visible;
+}
+
+.nave-form h4 {
+    font-size: 30px;
+    font-family: rr;
+}
+
+/*====================
+        student css
+====================*/
+
+.student {
+    margin: 60px auto 0;
+    background-image: linear-gradient(#e67e16, yellow);
+    border: 2px solid #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.form-inline {
+    padding-top: 20px;
+}
+
+.form-group {
+    padding: 0px 20px;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+/*====================
+    admission css
+====================*/
+
+
+#form-text {
+    padding-top: 20px;
+}
+
+#form {
+    padding-bottom: 20px;
+}
+
+#ui {
+    background-color: rgba(41, 186, 153, 0.7);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+#ui label {
+    color: #000;
+}
+
+#ui h2 {
+    text-align: center;
+    font-family: rr;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f61fe5;
+    border-color: #f68b1f;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+.form-heder h2 {
+    font-family: rr;
+    color: #4c4955;
+}
+
+
+/*====================
+        login css
+====================*/
+
+.main {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.form-area {
+    margin: 60px auto 0;
+    position: relative;
+    background: rgba(91, 237, 47, 0);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 60px 0 60px 0;
+    -moz-border-radius: 0 60px 0;
+    border-radius: 0 60px 0 60px;
+    box-shadow: 10px 20px #888888;
+}
+
+.form-area h2 {
+    margin-bottom: 45px;
+    text-align: center;
+    color: #1438ce;
+}
+
+.img-area {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f68b1f;
+    position: absolute;
+    top: -6%;
+    left: 47%;
+}
+
+.img-area img {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-area input {
+    width: 100%;
+    height: 50px;
+    border-radius: 0 15px 0 15px;
+    border: 1px solid #fff;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-area p {
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: rr;
+}
+
+.btn1 {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: #f61f82;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-text {
+    display: block;
+    height: 100%;
+    position: relative;
+    top: 0;
+    -webkit-transition: top 0.6s;
+    -moz-transition: top 0.6s;
+    -ms-transition: top 0.6s;
+    -o-transition: top 0.6s;
+    transition: top 0.6s;
+    width: 100%;
+}
+
+.btn1:hover .btn-text {
+    top: -100%;
+    text-decoration: none;
+}
+
+.for-pass {
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    font-family: rr;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/*================================
+      big footer part css
+================================*/
+
+#footer {
+    background-color: #c1c3b1;
+}
+
+.footer-title {
+    padding-top: 46px;
+    padding-bottom: 60px;
+}
+
+.form-inline2 {
+    float: right;
+    padding-bottom: 20px;
+}
+
+/*================================
+      small footer part css
+================================*/
+
+#small-footer {
+    background-color: #444;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-inner p {
+    display: inline;
+}
+
+.footer-inner a {
+    font-size: 30px;
+    padding: 10px;
+}
